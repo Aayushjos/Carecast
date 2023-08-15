@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareCast</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+        <div class="logo"><img src="static/images/logo1.png" alt="logo"></div>
+        <li class="nav-item"> <a href="http://127.0.0.1:5000/project.html" >Home</a></li>
+        <!-- <li class="nav-item"> <a href="#Diseases">Diseases</a></li> -->
+        <li class="nav-item"> <a href="ayu.html">Test</a></li>
+        <li class="nav-item"> <a href="./blogs.html">Blogs</a></li>
+        <li class="nav-item"> <button class="btnLogin-popup">Login</button></li></ul>
+    </nav>
+
+    <!-- Slider section -->
+    <section class="container">
+        <!-- Wrapper for slider -->
+        <div class="slider-wrapper">
+
+            <!-- Slider container -->
+            <div class="slider">
+                <!-- First slide -->
+              
+                    <!-- Image for the first slide -->
+
+                    <div class="slide">
+                      <!-- Image for the fourth slide -->
+                      <img id="slide-1" src="static/images/diab1.jpeg" alt="image1" width="255%">
+                      <div class="image-content">
+                          <!-- Button on top of the image -->
+                          <button class="image-button" onclick="window.location.href='http://127.0.0.1:5000/diabetes' ">Predict Diabetes</button>
+                          <!-- Text on top of the image -->
+                          <div class="image-text">Empowering Early Detection: Predict Diabetes with Our AI Model.</div>
+                      </div>
+                  </div>
+
+                  <div class="slide">
+                    <img id="slide-2" src="static/images/breast.jpg" alt="image1" width="150%" height="100%">
+
+                    <!-- Content for the first slide (button and text) -->
+                    <div class="image-content">
+                        <!-- Button on top of the image -->
+                        <button class="image-button" onclick="window.location.href='http://127.0.0.1:5000/breastcancer'">Predict breast cancer</button>
+                        <!-- Text on top of the image -->
+                        <div class="image-text">Empowering Early Detection: Predict Breast Cancer with Our AI Model</div>
+                    </div>
+                </div>
+
+                <!-- Other slides (similar structure) -->
+                <div class="slide">
+                    <img id="slide-3" src="static/images/kidney.jpg" alt="image3" width="255% " >
+                    <div class="image-content">
+                        <button class="image-button" onclick="window.location.href='http://127.0.0.1:5000/kidney'">Predict Kidney disease</button>
+                        <div class="image-text">"Predicting Kidney Disease: Unleashing the Power of AI for Early Detection"</div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <!-- Image for the third slide -->
+                    <img id="slide-4" src="static/images/heart.jpeg" alt="image3" width="255%">
+                    <div class="image-content">
+                        <!-- Button on top of the image -->
+                        <button class="image-button" onclick="window.location.href='heart.html'">Predict Heart stroke</button>
+                        <!-- Text on top of the image -->
+                        <div class="image-text">Enhancing Heart Health: Predicting Stroke Risks with Our AI Model</div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Add more slides here -->
+
+            </div>
+
+            <!-- Slider navigation -->
+            <div class="slider-nav">
+              
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- External script for ionicons and your custom project.js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="static/project.js"></script>
+</body>
+</html>
+

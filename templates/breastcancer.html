@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Breast Cancer</title>
+    <link rel="stylesheet" href="static/breastcancer.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+        <div class="logo"><img src="static/images/logo1.png" alt="logo"></div>
+        <li class="nav-item"> <a href="http://127.0.0.1:5000/project.html" >Home</a></li>
+        <!-- <li class="nav-item"> <a href="#Diseases">Diseases</a></li> -->
+        <li class="nav-item"> <a href="ayu.html">Test</a></li>
+        <li class="nav-item"> <a href="./blogs.html">Blogs</a></li>
+        <li class="nav-item"> <button class="btnLogin-popup">Login</button></li></ul>
+    </nav>
+    <div class="img-container">
+        <img src="static/images/breast2.jpg" class="background-img">
+        
+        <div class="container">
+            <h1>Breast Cancer Prediction Model</h1>
+            <div class="breast-cancer-section">
+                <p>
+                    Breast cancer is a common cancer that forms in the cells of the breasts, primarily affecting women but also possible in men. It occurs when abnormal cells multiply uncontrollably, leading to the development of a tumor. Early detection through regular self-examinations and mammograms is crucial for better treatment outcomes. Treatment options may include surgery, radiation, chemotherapy, and targeted therapies. Raising awareness and promoting early detection are key in the fight against breast cancer.
+                </p>
+            </div>
+        </div>
+           
+        
+     <div class="inputs-container">
+            <div class="inputs1">
+                <form action="{{ url_for('predict_breast_cancer') }}" method="post">
+                    <input type="number" name="radius_mean" required>
+                    <label>radius_mean</label>
+
+                    <input type="number" name="perimeter_mean" required>
+                    <label>perimeter_mean</label>
+
+                    <input type="number" name="area_mean" required>
+                    <label>area_mean</label>
+
+                    <input type="number" name="concavity_mean" required>
+                    <label>concavity_mean</label>
+
+                    <input type="number" name="concave_points_mean" required>
+                    <label>concave_points_mean</label>
+                
+            
+                   
+                    <input type="number" name="radius_se" required>
+                    <label>radius_se</label>
+
+                    <input type="number" name="perimeter_se" required>
+                    <label>perimeter_se</label>
+
+                    <input type="number" name="area_se" required>
+                    <label>area_se</label>
+
+                    <input type="number" name="concavity_se" required>
+                    <label>concavity_se</label>
+
+                    <input type="number"  name="concave_points_se">
+                    <label>concave_points_se</label>
+               
+           
+                    
+                    <input type="number" name="radius_worst" required>
+                    <label>radius_worst</label>
+
+                    <input type="number" name="perimeter_worst" required>
+                    <label>perimeter_worst</label>
+
+                    <input type="number" name="area_worst" required>
+                    <label>area_worst</label>
+
+                    <input type="number"  name="concavity_worst" required>
+                    <label>concavity_worst</label>
+
+                    <input type="number" name="concave_points_worst" required>
+                    <label>concave_points_worst</label>
+                    
+                    <button type="submit" class="butto">Predict</button>
+                    
+                </form>
+            </div>
+        </div>
+        
+            
+            <br><h3 <b>{{pred}}</b></h3>
+        
+        
+    </div>
+</body>
+</html>
+

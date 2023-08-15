@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidney</title>
+    <link rel="stylesheet" href="static/kidney.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+        <div class="logo"><img src="static/images/logo1.png" alt="logo"></div>
+        <li class="nav-item"> <a href="http://127.0.0.1:5000/project.html" >Home</a></li>
+        <!-- <li class="nav-item"> <a href="#Diseases">Diseases</a></li> -->
+        <li class="nav-item"> <a href="ayu.html">Test</a></li>
+        <li class="nav-item"> <a href="./blogs.html">Blogs</a></li>
+        <li class="nav-item"> <button class="btnLogin-popup">Login</button></li></ul>
+    </nav>
+    <div class="img-container">
+        <img src="static/images/kid.jpg" class="background-img">
+        
+        <div class="container">
+            <h1>Kidney Disease Prediction Model</h1>
+            <div class="diabetes-section">
+                <p>
+                    Kidney Disease is a chronic medical condition that impacts the proper functioning of the kidneys, vital organs responsible for filtering waste and excess fluids from the blood. It can manifest in various types, including chronic kidney disease (CKD), acute kidney injury (AKI), and polycystic kidney disease (PKD).Early detection and management of kidney disease are vital to slow its progression and prevent further damage. Symptoms may include fatigue, swelling in the ankles or hands, changes in urine output, and high blood pressure. Regular monitoring, lifestyle modifications, and proper medical treatment can help mitigate complications and improve overall kidney health, reducing the risk of kidney failure and related issues like cardiovascular problems and bone disease. 
+                </p>
+            </div>
+        </div>
+           
+        
+     <div class="inputs-container">
+            <div class="inputs">
+                <form action="{{ url_for('predict_kidney') }}" method="post">
+                    
+                    <label for="age">Age</label>
+                    <input type="number" name="age" required><br>
+                   
+
+                    <label>Albumin</label>
+                    <input type="radio" id="0" name="al" value="0">
+                    <label for="0">0</label>
+
+                    <input type="radio" id="1" name="al" value="1">
+                    <label for="1">1</label>
+
+                    <input type="radio" id="2" name="al" value="2">
+                    <label for="2">2</label>
+
+                    <input type="radio" id="3" name="al" value="3">
+                    <label for="3">3</label>
+
+                    <input type="radio" id="4" name="al" value="4">
+                    <label for="4">4</label><br>
+
+                    <label>Pus Cell</label>
+                    <input type="radio" id="abnormal" name="pc" value="1">
+                    <label for="abnormal">Abnormal</label>
+
+                    <input type="radio" id="normal" name="pc" value="0">
+                    <label for="normal">Normal</label><br>
+
+                    <label for="bgr">Blood Glucose</label>
+                    <input type="number" name="bgr" required><br>
+                    
+                    <label for="bu">Blood Urea</label>
+                    <input type="number" name="bu" required><br>
+                   
+                    <label for="sc">Serum Creatinine</label>
+                    <input type="number" name="sc" required><br>
+                    
+                
+            
+                    <label for="wc">WBC's Count</label>
+                    <input type="number" name="wc" required><br>
+                    
+                    <label>Hypertension</label>
+                    <input type="radio" id="yes" name="htn" value="1">
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="htn" value="0">
+                    <label for="no">No</label><br>
+
+                    <label>Diabetes mellitus</label>
+                    <input type="radio" id="yes" name="dm" value="1">
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="dm" value="0">
+                    <label for="no">No</label><br>
+
+                    <label>Pedal Edema</label>
+                    <input type="radio" id="yes" name="pe" value="1">
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="pe" value="0">
+                    <label for="no">No</label><br>
+
+
+                   
+
+                    
+               
+           
+                    
+                    
+                    
+                    <button type="submit" class="butto">Predict</button>
+                    
+                </form>
+            </div>
+        </div>
+        
+            
+        <br><h3 <b>{{pred}}</b></h3>
+        
+        
+    </div>
+    
+</body>
+</html>

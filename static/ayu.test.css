@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the logo */
+.logo {
+    width: 22%;
+}
+
+.logo img {
+    width: 120%;
+    border: 3px solid white;
+    border-radius: 1000px;
+    margin-right: 20px;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    list-style: none;
+}
+
+.nav-list {
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 40px 50px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.nav-item a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform 0.5s; /* Increase the transition time to 0.5 seconds */
+    background: black;
+}
+
+.nav-item a:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-item a:hover {
+    color: red;
+}
+.btnLogin-popup {
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    color: blue;
+    cursor: pointer;
+}
+
+.btnLogin-popup:hover {
+    color: gray;
+}
+.container img{
+    width: 1300px;
+    height: 3000px
+
+}
+.text{
+    margin-top: -2800px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+}
+.text:hover{
+    cursor: pointer;
+}
+.text button:hover{
+    cursor: pointer;
+    color: black;
+}
+ input[type="radio"] {
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}
+
+/* Custom styles for checked radio buttons */
+.input[type="radio"]:checked {
+    background-color: white
+} 
+.bu{
+    width: 200px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.bu:hover{
+    border-radius: 2px;
+    color: aquamarine;
+}
+
+
+
+
+
+
+

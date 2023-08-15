@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 22%;
+}
+
+.logo img {
+    width: 120%;
+    border: 3px solid white;
+    border-radius: 1000px;
+    margin-right: 20px;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.nav-list {
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 40px 50px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.nav-item a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform: transition .5s;
+    background: black;
+}
+
+.nav-item a:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-item a:hover {
+    color: red;
+}
+.btnLogin-popup{
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    color: blue;
+    cursor: pointer;
+   
+}
+.btnLogin-popup:hover{
+    color: gray;
+   
+}
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url("images/breast2.jpg");
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.inputs-container {
+    display: flex; /* Use flexbox to arrange the input sections in parallel */
+    justify-content: 200px; /* Adjust this value to change the spacing between sections */
+    position: absolute;
+    top: 500px; /* Vertically center the container */
+     left: 50%;  
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border: 20px;
+    margin-top: 100px;
+}
+
+.inputs{
+    height: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    flex: 1; /* Allow the input sections to take equal width */
+    margin: 100px; /* Adjust this value to control the spacing between sections */
+    text-decoration: solid;
+    border: 1.5px solid;
+    width: 400px;
+    
+}
+.background-img{
+    filter: blur(10px);
+    margin-top: -0px;
+    width: 100%;
+}
+ .container {
+    position: absolute;
+    top: 40%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    padding: 20px;
+    
+    margin-top: -10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px; 
+    text-align: center;
+   
+}  
+
+h1 {
+    text-align: center;
+    color: orangered;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+   
+    padding: 0;
+    background-color: #f2f2f2;
+    
+   
+}
+.butto{
+    
+        
+       
+        margin-left: 60px;
+        margin-top: 100px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        height: 40px;
+        width: 200px;
+        border-radius: 3px;
+        margin-bottom: 100px;
+        
+}
+.butto:hover{
+    background-color:darkseagreen
+}

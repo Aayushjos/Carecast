@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart stroke prediction</title>
+    <link rel="stylesheet" href="static/heart.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-list">
+    <div class="logo"><img src="static/images/logo1.png" alt="logo"></div>
+    <li class="nav-item"> <a href="http://127.0.0.1:5000/project.html" >Home</a></li>
+    <!-- <li class="nav-item"> <a href="#Diseases">Diseases</a></li> -->
+    <li class="nav-item"> <a href="ayu.html">Test</a></li>
+    <li class="nav-item"> <a href="./blogs.html">Blogs</a></li>
+    <li class="nav-item"> <button class="btnLogin-popup">Login</button></li></ul>
+</nav>
+
+    <div class="img-container">
+        <img src="static/images/heart2.jpg" class="background-img">
+        
+        <div class="container">
+            <h1>Heart disease  Prediction Model</h1>
+            <div class="heart-stroke-section">
+                <p>
+                    Heart disease, also known as cardiovascular disease, refers to a range of conditions that affect the heart and blood vessels. It includes conditions such as coronary artery disease, heart failure, arrhythmias, and more. Early detection and timely intervention are crucial in managing heart health and reducing the risk of complications. Our Heart Disease Prediction model uses advanced AI algorithms to assess your risk factors and provide valuable insights, empowering you to take proactive steps towards a healthier heart.
+                </p>
+            </div>
+        </div>
+
+        <div class="inputs-container">
+            <div class="inputs1">
+                <form action="{{ url_for('predict_heart_route') }}" method="post">
+                    <input type="number" name="age" required>
+                    <label>Age</label>
+                    <h4>Sex:</h4>
+                    
+                    <label>
+                        <input type="radio" name="sex" value="1" required>
+                        Male
+                      </label>
+                      <label>
+                        <input type="radio" name="sex" value="0" required>
+                        Female
+                      </label>
+
+                      <h4>Chest pain type :</h4>
+                    
+                    <label>
+                        <input type="radio" name="cp" value="0" required>
+                        No Chest Pain
+                      </label>
+                      <label>
+                        <input type="radio" name="cp" value="1" required>
+                        Mild Chest Pain
+                      </label>
+                      <label>
+                        <input type="radio" name="cp" value="2" required>
+                        Moderate Chest Pain
+                      </label>
+                      <label>
+                        <input type="radio" name="cp" value="3" required>
+                        Severe Chest Pain
+                      </label><br>
+
+                   
+
+                      
+
+                    
+                      <label>Resting Blood Pressure(in mm Hg)</label>
+                    <input type="number" name="trestbps" required>
+                  
+
+               
+                  <label>Serum cholestrol(in mg/dl)</label>
+                  <input type="number" name="chol" required><br>
+                    
+                  <label>Maximum Heart rate</label>
+                    <input type="number" name="thalach" required><br>
+                    
+                    <label>ST depression induced by exercise relative to rest</label>
+                    <input type="number" name="oldpeak" required><br>
+                    <button type="submit" class="butto">Predict</button>
+
+                    
+                </form>
+            </div>
+            
+        </div>
+        <br><h3 <b>{{pred}}</b></h3>
+
+
+
+
+</body>
+</html>

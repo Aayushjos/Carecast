@@ -1,0 +1,110 @@
+{
+    "status": "ok",
+    "totalResults": 8,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "mindbodygreen.com"
+            },
+            "author": "mindbodygreen",
+            "title": "This Type of Fast May Give You A Blood Sugar Balance Advantage",
+            "description": "And you don't have to skip breakfast.",
+            "url": "https://www.mindbodygreen.com/articles/circadian-fasting-may-be-an-easy-way-to-help-balance-blood-sugar-levels",
+            "urlToImage": "https://mindbodygreen-res.cloudinary.com/image/upload/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/el4z8sjqal781qw1r.jpg",
+            "publishedAt": "2023-07-08T09:01:00Z",
+            "content": "Eating in alignment with your circadian rhythms means that youre taking advantage of this natural period of higher metabolic activity.  \r\nCurrent studies on meal timing show that early fasting in par… [+1010 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Medical Daily"
+            },
+            "author": "Suneeta Sunny",
+            "title": "Does Failing Eyesight Signal Dementia? Study Says Vision Loss Is A Modifiable Risk Factor",
+            "description": "Researchers have found that vision loss has a significant association with dementia in the elderly.",
+            "url": "https://www.medicaldaily.com/does-failing-eyesight-signal-dementia-study-says-vision-loss-modifiable-risk-factor-470518",
+            "urlToImage": "https://d.medicaldaily.com/en/full/437037/blindness.jpg",
+            "publishedAt": "2023-07-18T04:58:36Z",
+            "content": "High blood pressure, smoking, hearing loss and diabetes are some of the factors that raise the risk of cognitive decline. But does failing eyesight signal dementia? A recent study suggests that visio… [+2511 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "Renalytix plc",
+            "title": "Renalytix Clinical Advisory Board Formed to Support Broadening Use of KidneyintelX.dkd",
+            "description": "World leading, multi-disciplinary experts advise on adoption of FDA authorized KidneyintelX.dkd across 14 million US patients with diabetes and chronic kidney disease World leading, multi-disciplinary experts advise on adoption of FDA authorized KidneyintelX.…",
+            "url": "https://www.globenewswire.com/news-release/2023/08/03/2717847/0/en/Renalytix-Clinical-Advisory-Board-Formed-to-Support-Broadening-Use-of-KidneyintelX-dkd.html",
+            "urlToImage": "https://ml.globenewswire.com/Resource/Download/96ff3c74-42c2-4a6e-8ad9-ffa86813f5c2",
+            "publishedAt": "2023-08-03T11:00:00Z",
+            "content": "LONDON and SALT LAKE CITY, Aug. 03, 2023 (GLOBE NEWSWIRE) -- Renalytix plc (LSE: RENX) (NASDAQ:RNLX) announces the launch of its Clinical Advisory Board, a world-leading, multi-disciplinary clinical … [+11125 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "INVENTIVA",
+            "title": "Inventiva Reports Preliminary 2023 First-Half Financial Information¹ and Business update",
+            "description": "Cash and cash equivalents at €31.2 million, short-term deposits at €0.05 million2, and long-term deposit at €9.3 million3 as of June 30, 2023, compared...",
+            "url": "https://www.globenewswire.com/news-release/2023/07/27/2712651/0/en/Inventiva-Reports-Preliminary-2023-First-Half-Financial-Information-and-Business-update.html",
+            "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/d96e203b-8941-46c7-888a-508900ab9a8b",
+            "publishedAt": "2023-07-27T20:00:00Z",
+            "content": "<ul><li>Cash and cash equivalents at 31.2 million, short-term deposits at 0.05 million2, and long-term deposit at 9.3 million3 as of June 30, 2023, compared to 86.7 million, 1.0 million and 0.7 milli… [+20819 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Marketscreener.com"
+            },
+            "author": "GlobeNewswire",
+            "title": "Correction: Inventiva Reports Preliminary 2023 First-Half Financial Information¹ and Business update",
+            "description": "(marketscreener.com) Cash and cash equivalents at €31.2 million, short-term deposits at €0.05 million2, and long-term deposit at €9.3 million3 as of June 30, 2023, compared to €86.7 million, €1.0 million and €0.7 million as of December 31, 2022, respectivelyR…",
+            "url": "https://www.marketscreener.com/quote/stock/INVENTIVA-34031212/news/Correction-Inventiva-Reports-Preliminary-2023-First-Half-Financial-Information-and-Business-updat-44443823/",
+            "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+            "publishedAt": "2023-07-27T20:33:35Z",
+            "content": "<ul><li>Cash and cash equivalents at 31.2 million, short-term deposits at 0.05 million2, and long-term deposit at 9.3 million3 as of June 30, 2023, compared to 86.7 million, 1.0 million and 0.7 milli… [+20889 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "INVENTIVA",
+            "title": "Correction: Inventiva Reports Preliminary 2023 First-Half Financial Information¹ and Business update",
+            "description": "Cash and cash equivalents at €31.2 million, short-term deposits at €0.05 million2, and long-term deposit at €9.3 million3 as of June 30, 2023, compared...",
+            "url": "https://www.globenewswire.com/news-release/2023/07/27/2712753/0/en/Correction-Inventiva-Reports-Preliminary-2023-First-Half-Financial-Information-and-Business-update.html",
+            "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/d96e203b-8941-46c7-888a-508900ab9a8b",
+            "publishedAt": "2023-07-27T20:33:00Z",
+            "content": "<ul><li>Cash and cash equivalents at 31.2 million, short-term deposits at 0.05 million2, and long-term deposit at 9.3 million3 as of June 30, 2023, compared to 86.7 million, 1.0 million and 0.7 milli… [+20819 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ET Spotlight",
+            "title": "Living with Type 2 diabetes? How weight loss can help improve your heart health",
+            "description": "Type 2 diabetes, especially when accompanied by obesity or excess weight, can cause acute and chronic complications such as hypoglycemia, hyperglycemia, high blood pressure, high cholesterol and atherosclerosis.",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/living-with-type-2-diabetes-how-weight-loss-can-help-improve-your-heart-health/articleshow/101979380.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-101988023,width-1070,height-580,imgsize-54042,overlay-etpanache/photo.jpg",
+            "publishedAt": "2023-07-20T11:49:36Z",
+            "content": "Type 2 diabetes can trigger health complications in the short run and cause extensive damage to vital body organs over the long run. The good news is that with proper lifestyle, diet, and appropriate… [+9282 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "PRNewswire"
+            },
+            "author": null,
+            "title": "AACC Releases Comprehensive Guidelines on Diabetes Testing to Improve Patient Care, Along with the American Diabetes Association",
+            "description": "WASHINGTON, July 20, 2023 /PRNewswire/ -- Today, AACC—in collaboration with the American Diabetes Association (ADA)—released evidence-based guidelines to help diagnose and manage patients with diabetes using the latest laboratory-analysis tools. The guideline…",
+            "url": "https://www.prnewswire.com/news-releases/aacc-releases-comprehensive-guidelines-on-diabetes-testing-to-improve-patient-care-along-with-the-american-diabetes-association-301882463.html",
+            "urlToImage": "https://mma.prnewswire.com/media/242295/AACC_Logo.jpg?p=facebook",
+            "publishedAt": "2023-07-20T18:33:00Z",
+            "content": "WASHINGTON, July 20, 2023 /PRNewswire/ -- Today, AACCin collaboration with the American Diabetes Association (ADA)released evidence-based guidelines to help diagnose and manage patients with diabetes… [+5094 chars]"
+        }
+    ]
+}

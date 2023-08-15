@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='diab.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+        <div class="logo"><img src="static/images/logo1.png" alt="logo"></div>
+        <li class="nav-item"> <a href="http://127.0.0.1:5000/project.html" >Home</a></li>
+        <!-- <li class="nav-item"> <a href="#Diseases">Diseases</a></li> -->
+        <li class="nav-item"> <a href="ayu.html">Test</a></li>
+        <li class="nav-item"> <a href="./blogs.html">Blogs</a></li>
+        <li class="nav-item"> <button class="btnLogin-popup">Login</button></li></ul>
+    </nav>
+    <div class="img-container">
+        <img src="static/images/Dia.cms" class="background-img">
+        
+        <div class="container">
+            <h1>Diabetes Prediction Model</h1>
+            <div class="diabetes-section">
+                <p>
+                    Diabetes is a chronic medical condition that affects how the body regulates blood sugar levels. It can manifest in three main types: Type 1, Type 2, and gestational diabetes. Type 1 diabetes is an autoimmune disorder where the immune system attacks insulin-producing cells in the pancreas. Type 2 diabetes is often linked to lifestyle factors like diet and exercise, leading to insulin resistance or insufficient insulin production. Gestational diabetes occurs during pregnancy due to hormonal changes affecting insulin function. Early detection and effective management are crucial to prevent complications such as cardiovascular issues and nerve damage. 
+                </p>
+            </div>
+        </div>
+           
+        
+     <div class="inputs-container">
+            <div class="inputs">
+                <form action="{{ url_for('predict_diabetes_route') }}" method="post">
+
+                    <input type="number" name="Glucose" required>
+                    <label>Glucose</label>
+
+                    <input type="number" name="BloodPressure" required>
+                    <label>BloodPressure</label>
+
+                    <input type="number" name="SkinThickness" required>
+                    <label>SkinThickness"</label>
+
+                    <input type="number" name="Insulin" required>
+                    <label>Insulin</label>
+
+                    <input type="number" name="BMI" required>
+                    <label>BMI</label>
+                
+            
+                   
+                    <input type="number" name="Age" required>
+                    <label>Age</label>
+
+                    <input type="number" name="DiabetesPedigreeFunction" required>
+                    <label>DiabetesPedigreeFunction</label>
+
+                    
+               
+           
+                    
+                    
+                    
+                    <button type="submit" class="butto">Predict</button>
+                    
+                </form>
+            </div>
+        </div>
+        
+            
+        <br><h3 <b>{{pred}}</b></h3>
+        
+        
+    </div>
+    
+</body>
+</html>
