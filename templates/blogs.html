@@ -1,24 +1,444 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- saved from url=(0058)file:///C:/Users/Aayush%20Joshi/Downloads/blogs%20(1).html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <title>Blogs</title>
+    <link href="static/images/bootstrap.min.css" rel="stylesheet"  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <style>
+             /* Styling for the card */
+            
+
+            .card:hover {
+                transform: scale(1.05); /* Increase card size on hover */
+            }
+
+
+            /* Styling for the container-fluid */
+            
+            
+            .section-title {
+            background-color: #007bff; /* Set the background color for section titles */
+            color: #fff; /* Set the text color for section titles */
+            padding: 10px; /* Add padding to section titles */
+            border-radius: 5px; /* Add border radius to section titles */
+            }
+        
+            @keyframes moveCardsDiabetes {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            @keyframes moveCardsBreastCancer {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            @keyframes moveCardsKidneyDisease {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            @keyframes moveCardsHeartDisease {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            @keyframes moveCardsAyurveda {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            /* Apply the animation to the specific sections */
+            #diabetes-section .row-cols-md-3 {
+                display: flex;
+                animation: moveCardsDiabetes 10s linear infinite;
+            }
+
+            #breast-cancer-section .row-cols-md-3 {
+                display: flex;
+                animation: moveCardsBreastCancer 10s linear infinite;
+            }
+
+            #kidney-disease-section .row-cols-md-4 {
+                display: flex;
+                animation: moveCardsKidneyDisease 10s linear infinite;
+            }
+
+            #heart-disease-section .row-cols-md-3 {
+                display: flex;
+                animation: moveCardsHeartDisease 10s linear infinite;
+            }
+
+            #ayurveda-section .row-cols-md-4 {
+                display: flex;
+                animation: moveCardsAyurveda 10s linear infinite;
+            }
+        </style>
+    <link rel="stylesheet" href="static/ayu.css">
 </head>
-
 <body>
+    <nav class="navbar">
+        <ul class="nav-list">
+        <div class="logo"><img src="static/images/logo1.png" alt="logo"></div>
+        <li class="nav-item"> <a href="http://127.0.0.1:5000/project.html">Home</a></li>
+        <!-- <li class="nav-item"> <a href="#Diseases">Diseases</a></li> -->
+        <li class="nav-item"> <a href="ayu.html">Test</a></li>
+        <li class="nav-item"> <a href="blogs.html">Blogs</a></li>
+        <li class="nav-item"> <button class="btnLogin-popup"><a href="http://127.0.0.1:5000/login.html">Login</a></button></li></ul>
+    </nav>
+    <h1 class="text-center">Diseases</h1>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title">Diabetes</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="diabetes-section">
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/What-is-Diabetes.gif" class="card-img-top img-fluid" alt="Diabetes" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">What is Diabetes?</h5>
+                        <p class="card-text">Diabetes is a chronic disease that affects how your body turns food into
+                            energy.
+                            <a href="https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20351193" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>
+                    
+                    
+                <div class="col">
+                    <div class="card">
+                        <img src="static/images/Schema-type-2-diabetes-sugar-cell-1024x625.png" class="card-img-top img-fluid" alt="Diabetes" width="40" height="30">
+                        <div class="card-body">
+                            <h5 class="card-title common-title">Types of Diabetes</h5>
+                            <p class="card-text">There are three main types of diabetes: type 1, type 2, and gestational
+                                diabetes.
+                                <a href="https://www.niddk.nih.gov/health-information/diabetes" class="card-link">read
+                                    more</a>
+                        </p></div>
+                    </div>
+                </div>
 
-    <div id="root"></div>
 
-    <!-- Include React and React DOM from CDNs
-    <script src="https://cdn.jsdelivr.net/npm/react@17/umd/react.development.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/react-dom@17/umd/react-dom.development.js"></script> -->
+                
+                <div class="col">
+                        <div class="card">
+                            <img src="static/images/7104-diabetes-symptoms.jpg" class="card-img-top img-fluid" alt="Diabetes" width="40" height="30">
+                            <div class="card-body">
+                                <h5 class="card-title common-title">Symptoms of Diabetes</h5>
+                                <p class="card-text">The symptoms of diabetes can vary depending on the type of diabetes
+                                    you
+                                    have.
+                                    <a href="https://www.diabetes.org.uk/about-diabetes/types-of-diabetes" class="card-link">read more</a>
+                            </p></div>
+                        </div>
+                </div>
+        </div>
+         <hr>   
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title">Breast Cancer</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="breast-cancer-section">
+            <div class="col">
+                    <div class="card">
+                        <img src="static/images/Breast-Cancer-Myths-and-Facts.jpg" class="card-img-top img-fluid" alt="Breast Cancer" width="40" height="30">
+                        <div class="card-body">
+                            <h5 class="card-title common-title">What is Breast Cancer?</h5>
+                            <p class="card-text">Breast cancer is the most common type of cancer in women and accounts for 14% of cancers in Indian women. Statistics suggest that this cancer is on the rise, both in rural and urban India and every four minutes, an Indian woman is diagnosed with breast cancer.
+                                <a href="https://www.cancer.org/cancer/breast-cancer.html" class="card-link">read
+                                    more</a>
+                        </p></div>
+                    </div>
+            </div>
+                
+            
+            <div class="col">
+                    <div class="card">
+                        <img src="static/images/breast-cancer-symptoms012.jpg" class="card-img-top img-fluid" alt="Breast Cancer" width="40" height="30">
+                        <div class="card-body">
+                            <h5 class="card-title common-title">Symptoms of Breast Cancer</h5>
+                            <p class="card-text">The symptoms of breast cancer can vary depending on the
+                                stage
+                                of the cancer.
+                                <a href="https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352289" class="card-link">read more</a>
+                        </p></div>
+                    </div>
+            </div>
+            
+            
+                <div class="col">
+                        <div class="card">
+                            <img src="static/images/Breast-Cancer-Treatment1.jpg" class="card-img-top img-fluid" alt="Breast Cancer" width="40" height="30">
+                            <div class="card-body">
+                                <h5 class="card-title common-title">Treatment for Breast Cancer</h5>
+                                <p class="card-text">There are many different treatment options available
+                                    for
+                                    breast cancer, depending on the stage of
+                                    the cancer.
+                                    <a href="https://www.breastcancer.org/treatment/" class="card-link">read more</a>
+                            </p></div>
+                        </div>
+                </div>
+        </div>  
+         <hr>      
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title">Kidney Disease</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4" id="kidney-disease-section">
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/chronic-kidney-disease-overview-1132509_final-3537757c10114a8fa532359abe616d47.png" class="card-img-top img-fluid" alt="Kidney disease" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">What is Kidney Disease?</h5>
+                        <p class="card-text">Kidney disease is a condition that affects the
+                            kidneys'
+                            ability to filter waste products from the
+                            blood.
+                            <a href="https://www.mayoclinic.org/diseases-conditions/kidney-disease/symptoms-causes/syc-20353580" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>
+                    
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/276025350_7662577737093643_3173755944668357460_n.jpg" class="card-img-top" alt="Kidney disease">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">Types of Kidney Disease</h5>
+                        <p class="card-text">There are many different types of kidney
+                            disease,
+                            but the most common are chronic kidney disease
+                            (CKD) and acute kidney injury (AKI).
+                            <a href="https://www.kidney.org/atoz/content/kidney-disease" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>
+                
+                    
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/VWH_Illustration_Early-Symptoms-of-Kidney-Failure_Illustrator_Ellen-Lindner_Final-d6abfd220e5b4ccfa407688366218c92.jpg" class="card-img-top img-fluid" alt="Kidney disease" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">Symptoms of Kidney Disease</h5>
+                        <p class="card-text">The symptoms of kidney disease can vary
+                            depending on the type of kidney disease you have.
+                            <a href="https://www.nhs.uk/conditions/kidney-disease/symptoms/" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>
+                
+                    
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/Kidney-Failure-Symptoms.png" class="card-img-top img-fluid" alt="Kidney failure infographic" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">Kidney Failure</h5>
+                        <p class="card-text">Kidney failure is the last stage of
+                            kidney
+                            disease, when the kidneys can no longer function
+                            normally.
+                            <a href="https://www.kidney.org/atoz/content/kidney-failure" class="card-link">read more</a>
+                    
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title">Heart Disease</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="heart-disease-section">
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/HEART_INFO_stas.png" class="card-img-top img-fluid" alt="Heart disease" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">What is Heart Disease?</h5>
+                        <p class="card-text">Heart disease is a group of
+                            conditions
+                            that affect your heart.
+                            <a href="https://www.heart.org/en/about-heart/what-is-heart-disease/facts-about-heart-disease" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card">
+                        <img src="static/images/24129-heart-disease.jpg" class="card-img-top img-fluid" alt="Heart disease" width="40" height="30">
+                        <div class="card-body">
+                            <h5 class="card-title common-title">Symptoms of Heart Disease
+                            </h5>
+                            <p class="card-text">The symptoms of heart disease
+                                can
+                                vary depending on the type of heart disease you
+                                have.
+                                <a href="https://www.mayoclinic.org/diseases-conditions/heart-disease/symptoms-causes/syc-20353118" class="card-link">read more</a>
+                        </p></div>
+                </div>
+            </div>
+           
+                
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/ZORNCTT3OFD65HMAUWPBQXPL5Q.jpg" class="card-img-top img-fluid" alt="Heart disease" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">Preventing Heart Disease
+                        </h5>
+                        <p class="card-text">There are many things you
+                            can
+                            do to prevent heart disease, including
+                            eating a
+                            healthy diet,
+                            exercising regularly, and not smoking.
+                            <a href="https://www.webmd.com/heart-disease/guide/heart-disease-basics" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>       
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title">Ayurveda</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4" id="ayurveda-section">
+            <div class="col">
+                <div class="card">
+                    <img src="static/images/xprm-what-is-ayurveda.png.pagespeed.ic.Dh8Y-LuCP1.webp" class="card-img-top img-fluid" alt="Ayurveda" width="40" height="30">
+                    <div class="card-body">
+                        <h5 class="card-title common-title">What is Ayurveda?
+                        </h5>
+                        <p class="card-text">Ayurveda is a
+                            traditional
+                            Indian system of medicine that
+                            emphasizes
+                            balance and harmony.
+                            <a href="https://www.ayurveda.com/about-ayurveda/what-is-ayurveda/" class="card-link">read more</a>
+                    </p></div>
+                </div>
+            </div>
+            
+            <div class="col">
+                    <div class="card">
+                        <img src="static/images/the-basic-principles-of-ayurveda-250x250.jpg" class="card-img-top img-fluid" alt="Ayurveda" width="40" height="30">
+                        <div class="card-body">
+                            <h5 class="card-title common-title">Principles of
+                                Ayurveda</h5>
+                            <p class="card-text">Ayurveda is based
+                                on
+                                the belief that there are three
+                                doshas,
+                                or energies, that govern the body:
+                                vata, pitta, and kapha.
+                                <a href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/ayurveda/art-20045854" class="card-link">read more</a>
+                        </p></div>
+                    </div>
+                </div>
+            
+                
+                    <div class="col">
+                        <div class="card">
+                            <img src="static/images/6146df5ad7cecb00017cbcc3.jpg" class="card-img-top img-fluid" alt="Ayurveda treatment" width="40" height="30">
+                                <div class="card-body">
+                                <h5 class="card-title common-title">Ayurveda for
+                                    Weight Loss</h5>
+                                <p class="card-text">Ayurveda can be
+                                    a
+                                    helpful tool for weight loss, as
+                                    it
+                                    focuses on balancing the doshas
+                                    and
+                                    promoting overall health.
+                                    <a href="https://www.healthline.com/health/ayurveda-for-weight-loss#TOC_TITLE_HDR_3" class="card-link">read
+                                        more</a>
+                            </p></div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                        <div class="card">
+                            <img src="static/images/Treatment-for-Depression.jpg" class="card-img-top img-fluid" alt="Ayurveda treatment" width="40" height="30">
+                                <div class="card-body">
+                                    <h5 class="card-title common-title">Ayurveda
+                                        for
+                                        Stress Relief</h5>
+                                    <p class="card-text">Ayurveda
+                                        can be
+                                        a helpful tool for stress
+                                        relief, as it provides a
+                                        variety
+                                        of techniques to help
+                                        you
+                                        relax and de-stress.
+                                        <a href="https://www.verywellmind.com/ayurveda-for-stress-relief-4164778" class="card-link">read
+                                        more</a>
+                                    </p></div>
+                                </div>
+                            </div>
+                            
+        </div>    
+    </div>
+
+        <script src="static/images/popper.min.js.download" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="static/images/bootstrap.min.js.download" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+        <script src="static/images/bootstrap.bundle.min.js.download" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="static/images/jquery-3.6.0.min.js.download"></script>
+        <script src="static/images/bootstrap.min.js(1).download"></script>
+        <script src="static/images/popper.min.js(1).download"></script>
+            <!-- <script>
+                // JavaScript for continuous 360-degree loop animation
+                $(document).ready(function () {
+                    const $container = $('#card-container');
+                    const cardCount = $container.find('.card').length;
+                    const cardWidth = $container.find('.card').outerWidth(true);
+                    const containerWidth = cardCount * cardWidth;
+                    let currentPosition = 0;
+        
+                    // Duplicate cards to create a seamless loop
+                    $container.append($container.html());
+        
+                    // Animation function
+                    function animate() {
+                        if (currentPosition <= -containerWidth) {
+                            currentPosition = 0;
+                        }
+                        currentPosition -= 1; // Adjust this value for animation speed
+                        $container.css('transform', `translateX(${currentPosition}px)`);
+                        requestAnimationFrame(animate);
+                    }
+        
+                    // Start the animation
+                    animate();
+                });
+            </script> -->
 
 
-    <!-- <script src="../static/NavBar.js"></script> -->
-    <script src="../static/App.js"></script>
-
-</body>
-
-</html>
+</body></html>
