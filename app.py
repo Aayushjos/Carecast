@@ -335,6 +335,10 @@ def vk():
 def blogs():
     return render_template('/blogs.html')
 
+@app.route('/login.html', methods =['GET'])
+def login():
+    return render_template('/login.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
