@@ -71,5 +71,7 @@ if predict  ==[1]:
 else:
     print("Great!!, you are healthy ,keep going.")
     # Saving the model
+import joblib
+joblib.dump(model,'Heart_disease.pickle')
 
     
