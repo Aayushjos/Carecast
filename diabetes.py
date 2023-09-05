@@ -96,4 +96,5 @@ print("\nAccuracy {0} ROC {1}".format(ac,rc))
 #cross val score
 result=cross_validate(clf,train_X,train_y,scoring=scoring,cv=10)
 display_result(result)
-
+import joblib
+joblib.dump(clf, 'diab.pickle')
