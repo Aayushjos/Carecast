@@ -4,19 +4,7 @@ import joblib
 import pandas as pd
 import numpy as np
 
-# from fastapi import FastAPI
 
-# app = FastAPI()
-
-
-# @app.get("/")
-# def read_root():
-#     return {"Hello": "World"}
-
-
-# @app.get("/items/{item_id}")
-# def read_item(item_id: int):
-#     return {"item_id": item_id}
 
 app = Flask(__name__)
 
@@ -256,39 +244,6 @@ def predict_heart_route():
         prediction = "You have a Heart Disease. Please consult a doctor."
 
     return render_template('result3.html', prediction=prediction)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Ayurveda-related Routes
 @app.route('/project.html')
