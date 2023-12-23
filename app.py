@@ -2,7 +2,7 @@ import flask
 from flask import render_template, Flask, request, redirect, url_for
 import joblib
 import pandas as pd
-import numpy as np
+import numpy  as np
 
 
 
